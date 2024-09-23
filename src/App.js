@@ -153,13 +153,13 @@ function App() {
               </div>
               
               <div class="product">
-                  <div>
+                  <div className='left-btn'>
                       <button> &lt; </button>
                   </div>
                   <div class="main-shoes">
                       <img src={NewShoes} alt=""/>
                   </div>
-                  <div>
+                  <div className='right-btn'>
                       <button> &gt; </button>
                   </div>
               </div>
@@ -200,6 +200,138 @@ function App() {
                       </div>
                   </div>
               </div>
+          </div>
+
+          <div className="product-price">
+            <div className="product-container">
+              <div className='product-word'>
+                <div className='word-container'>Өнімдер</div>
+              </div>
+              <div className='price-product'>
+                <div className='basket-container1'>
+                  <div className='first-container'>
+
+                    <div className='container1'>
+                      <div className='product-image1'><img src={newShoes} alt="" id='a'/></div>
+                      
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+                    <div className='container2'>
+                      <div className='product-image2'><img src={newShoes2} alt="" id='2'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+
+                    <div className="container3">
+                      <div className='product-image3'><img src={newshoes4} alt="" id='3'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+
+                    <div className="container4">  
+                      <div className='product-image4'><img src={newShoes5} alt="" id='4'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+
+                    <div className="container5">
+                      <div className='product-image5'><img src={newshoes4} alt="" id='5'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div> 
+
+                    <div className="container6">
+                      <div className='product-image6'><img src={newShoes5} alt="" id='6'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className='price-product'>
+                <div className='basket-container1'>
+                  <div className='first-container'>
+
+                    <div className='container1'>
+                      <div className='product-image1'><img src={newShoes} alt="" id='a'/></div>
+                      
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+                    <div className='container2'>
+                      <div className='product-image2'><img src={newShoes2} alt="" id='2'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+
+                    <div className="container3">
+                      <div className='product-image3'><img src={newshoes4} alt="" id='3'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+
+                    <div className="container4">  
+                      <div className='product-image4'><img src={newShoes5} alt="" id='4'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+
+                    <div className="container5">
+                      <div className='product-image5'><img src={newshoes4} alt="" id='5'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div> 
+
+                    <div className="container6">
+                      <div className='product-image6'><img src={newShoes5} alt="" id='6'/></div>
+                      <div className='product-button'>
+                        <div>Аяқ-киім</div>
+                        <div>35 490 теңге</div>
+                        <div><button className='product-btn'>Сатып алу</button></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className='basket-container2'>
+                </div>
+              </div>
+
+              </div>
+            </div>
           </div>
 
         </main>

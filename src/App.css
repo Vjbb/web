@@ -140,7 +140,7 @@ main{
         transform: translate3d(0px, 0, 0);
     }
     100%{
-        transform: translate3d(-2100px, 0, 0);
+        transform: translate3d(-1000px, 0, 0);
     }
 }
 
@@ -251,7 +251,7 @@ div img {
     border-radius: 0%;
 }
 
-div button{
+.left-btn button, .right-btn button{
     display: flex;
     width: 60px;
     height: 60px;
@@ -323,4 +323,99 @@ select{
 
 label{
     color: #707795;
+}
+
+
+
+/*---------------------Product------------------------------*/
+
+.product-price{
+  display: flex;
+}
+
+.product-container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.product-word{
+  padding: 50px;
+}
+
+.word-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+
+.price-product{
+  display: flex;
+  flex-direction: column;
+}
+
+.first-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 50px;
+  padding: 20px;
+}
+
+.container1, .container2, .container3, .container4, .container5, .container6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.basket-container1{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image1 img, .product-image2 img, .product-image3 img, .product-image4 img, .product-image5 img, .product-image6 img{
+  width: 160px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-button{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.product-button div{
+  font-size: 20px;
+
+}
+
+.product-btn{
+  width: 160px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0057A8;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-btn:hover{
+  background-color: #003f7f;
+
 }
