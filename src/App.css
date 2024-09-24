@@ -25,7 +25,7 @@ header{
 
 main{
   background-color: white;
-  height: 800vh;    
+  height: 300vh;    
 }
 
 .header-container{
@@ -418,4 +418,73 @@ label{
 .product-btn:hover{
   background-color: #003f7f;
 
+}
+
+
+
+/*---------------Footer-------------------*/
+
+footer{
+  display: flex;
+
+  border: 1px solid black;
+}
+
+.footer-container{
+  display: flex;
+  gap: 260px;
+  padding: 20px;
+
+}
+
+
+.footer-container span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-container a{
+  text-decoration: none;
+}
+
+.social-media{
+  margin: 10px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: color 0.3s ease;
+}
+
+.social-media a:hover{
+  color: #0057A8;
+}
+
+
+
+.about{
+  display: flex;
+}
+
+.about-word{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-body p{
+  font-size: 16px;
+  color: #000;
+  line-height: 28px;
+  margin-bottom: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px;
+}
+
+.about-body span{
+  padding-left: 500px;
 }

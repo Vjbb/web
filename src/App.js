@@ -12,6 +12,8 @@ import adidas2 from './image/adidas-shoes2.jpg';
 import nike4 from './image/nike-shoes4.jpeg';
 import images from './image/images.jpeg'
 import nike2 from './image/nike-shoes2.jpeg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -29,7 +31,7 @@ function App() {
 
                 <div class="addition">
                     <div class="navigation">
-                        <div><a href="">Home</a></div>
+                        <div><a href="#discount">Home</a></div>
                         <div><a href="">About</a></div>
                         <div><a href="">Sales</a></div>
                         <div><a href="">Contact</a></div>
@@ -52,7 +54,7 @@ function App() {
         </header>
 
         <main>
-          <div class="discount">
+          <div class="discount" id='discount'>
               <div class="discount-container">
                   <div class="adidas">
                       <div class="adidas-discount">
@@ -334,7 +336,55 @@ function App() {
             </div>
           </div>
 
+          <div className='about'>
+            <div className='about-container'>
+              <div className='about-word'>Біздің компания</div>
+              <div className='about-body'>
+                  <p>
+                  "KIMEX "және" Grazie " – 1994 жылы құрылған Қазақстандағы ең ірі мульти-брендтік дүкендер желісі. <br />
+
+                  Бүгін біз Қазақстан Республикасының аумағындағы fashion сегментіндегі бөлшек сауданың ең ірі өкілдерінің бірі болып табыламыз. <br />
+
+                  Желіде әйгілі еуропалық брендтердің бүкіл отбасы үшін ең жақсы аяқ киім, Киім және аксессуарлар топтамалары, сондай-ақ өз дизайнының жоғары сапалы өнімдері бар. <br />
+
+                  Жылдан жылға біз өсуді және дамуды жалғастырамыз, қатысу географиясын кеңейтеміз, қызмет көрсету сапасын жақсартамыз және тауарларды онлайн сатып алу мүмкіндігімен оны сатып алушыларымыз үшін ыңғайлы етеміз. <br />
+
+                  <span>Біздің миссиямыз-қанағаттанған клиент</span> <br />
+                  <span>Біздің көзқарасымыз-өз ісіндегі ең жақсысы</span> <br />
+
+                  Біздің Компанияның айрықша ерекшелігі-команда ішінде де, біздің бизнестің барлық бағыттарында да отбасылық құндылықтар принципі! <br />
+
+                  Сайтта және бөлшек сауда дүкендерінде тауарлардың кең ассортименті ұсынылған: ерлер, әйелдер және балалар киімдері, аяқ киім және аксессуарлар – сөмкелер, белбеулер, әмияндар, қолшатырлар, шарфтар, қолғаптар және т.б. сіз курьерлік қызметтер арқылы Қазақстан Республикасының бүкіл аумағы бойынша жеткізумен тауарға интернет-дүкенде тапсырыс бере аласыз. <br />
+                  </p>
+              </div>
+            </div>
+          </div>
+
         </main>
+
+        <footer>
+          <div className='footer-container'>
+            <div><span>Покупателю</span><br />
+              <a href="">Доставка и оплата</a><br />
+              <a href="">Бонус</a>
+            </div>
+            <div><span>О нас</span><br />
+              <a href="">Магазин</a> <br />
+              <a href="">Карьера</a> <br />
+              <a href="">Новости</a> <br />
+              <a href="">Контакт</a>
+            </div>
+            <div><span>Партнерам</span><br />
+              <a href="">Marketplace</a> <br />
+              <a href="">Intertop</a>
+            </div>
+            <div className='social-media'><span>Социальные сети</span><br />
+              <a href="" ><FontAwesomeIcon icon={ faInstagram } size='2x'/></a>
+              <a href=""><FontAwesomeIcon icon={ faTelegram} size='2x'/></a>
+              <a href="https://wa.me/+7785621707"><FontAwesomeIcon icon={ faWhatsapp } size='2x'/></a>
+            </div>
+          </div>
+        </footer>
       </div>
   );
 }
